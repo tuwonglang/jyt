@@ -1,0 +1,115 @@
+#include <conio.h>
+#include <iostream.h>
+
+void
+main()
+{
+	int n, dv, ch, tr;
+	clrscr();
+	cout << "Nhap so nguyen duong < 1000 :\n";
+	cin >> n;
+	cout << "So " << n << " doi sang so La ma la :\n";
+	tr = n / 100;
+	n = n % 100;
+	ch = n / 10;
+	dv = n % 10;
+
+	switch (tr)
+	{
+		case 1:
+			cout << "C";
+			break;
+		case 2:
+			cout << "CC";
+			break;
+		case 3:
+			cout << "CCC";
+			break;
+		case 4:
+			cout << "CD";
+			break;
+		case 5:
+			cout << "D";
+			break;
+		case 6:
+			cout << "DC";
+			break;
+		case 7:
+			cout << "DCC";
+			break;
+		case 8:
+			cout << "DCCC";
+			break;
+		case 9:
+			cout << "CM";
+	}
+
+	switch (ch)
+	{
+		case 1:
+			cout << "X";
+			break;
+		case 2:
+			cout << "XX";
+			break;
+		case 3:#include <stdio.h>
+#include <conio.h>
+void
+main ()
+{
+  int t, t100, t20, t5;
+  clrscr ();
+  printf ("Nhap so tien t=");
+  scanf ("%d", &t);
+  t100 = t / 100;
+  t -= 100 * t100;
+  t20 = t / 20;
+  t -= 20 * t20;
+  t5 = t / 5;
+  t -= 5 * t5;
+  printf ("So to cac loai menh gia la :\n");
+  printf ("Loai 100 : %d to\n", t100);
+  printf ("Loai 20 : %d to\n", t20);
+  printf ("Loai 5 : %d to\n", t5);
+  printf ("Loai 1 : %d to\n", t);
+  printf ("Tong so to cac loai la : %d\n", t + t5 + t20 + t100);
+  getch ();
+}
+			cout << "XXX";
+			break;
+		case 4:
+			cout << "XL";
+			break;
+		case 5:
+			cout << "L";
+			break;
+		case 6:
+			cout << "LX";
+			break;
+		case 7:
+			cout << "LXX";
+			break;
+		case 8:
+			cout << "LXXX";
+			break;
+			break;
+		case 4:
+			cout << "IV";
+			break;
+		case 5:
+			cout << "V";
+			break;
+		case 6:
+			cout << "VI";
+			break;
+		case 7:
+			cout << "VII";
+			break;
+		case 8:
+			cout << "VIII";
+			break;
+		case 9:
+			cout << "IX";
+	}
+	getch();
+}
